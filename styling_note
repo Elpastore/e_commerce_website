@@ -1,0 +1,54 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    color: #222;
+    line-break: 54px;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+}
+*/
+The text above is used for the default styling
+/* Header Start*/
+Before starting making our e-commerce website we will need a navigation bar which contain: logo, Home, Shop, Blog, About, contact and shopping logo. By default this are not styling. So to allow item to be display in on row we use mainly:
+display: flex; align-items: center; justify-content: space-between;
+And now to allow our list of item in the navbar to be in a same line we use display: flex; align-items: center; justify-content: center;
+
+IMPORTANT: the display: flex is the main css style that align item into just one line(row).
+
+We also remove the point in the list and the underline we select li from the #header and set list-style: none then do the same for a from the  #header and set text-decoration: none.
